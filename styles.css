@@ -3,6 +3,27 @@ body {
 
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Barlow';
+    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/87964571_10157846037321718_6756175000480251904_n.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=U7Zypv4-ajEAX-Mz0B0&_nc_ht=scontent-lga3-1.xx&oh=7a966f84900502f8d27b069c406db7a8&oe=5EFBC392");
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.stats {
+    display: none;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Barlow';
+    text-shadow: 2px 2px 5px #999;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -64,7 +85,7 @@ body {
 
 .playerpics {
     width: 250px;
-    margin:10px;
+    margin: 10px;
 }
 
 .fontOne {
@@ -77,9 +98,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.row{
-      display: flex;
-      justify-content:center;
-  flex-wrap: wrap;
-  padding: 0 4px;
-    }
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.home {
+    border: #222 solid 2px;
+}
